@@ -970,9 +970,12 @@ footer {
     grid-template-columns: repeat(2, 47%);
   }
   .main_background_color {
-    height: 5100px;
+    height: 5150px;
   }
   .guarantees .guarantees__text {
+    width: 100%;
+  }
+  .button-questions {
     width: 100%;
   }
 }
