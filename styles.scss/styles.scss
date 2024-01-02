@@ -248,7 +248,7 @@ margin-top: 25px;
 
 .main_background_color{
     background-color: rgba(229, 231, 235, 1);
-    height: 2950px;
+    padding-bottom: 50px;
 }
 
 .calculator{
@@ -991,3 +991,97 @@ footer .footer-policy__item-right{
 }
 
 }
+
+@media screen and (min-width: 414px) and (max-width: 766px) {
+
+ .main-container{
+  max-width: 100%;
+ }
+
+ .contacts-right__item-1_phone-font{
+  font-size: 20px;
+ }
+
+ .contacts-right__item-2_font{
+  font-size: 15px;
+ }
+
+ .logo-container{
+  width: 40%;
+ }
+
+ .header-bottom{
+  margin-top: 5px;
+ }
+
+ .header-bottom .nav__item{
+  margin-right: 0;
+ }
+
+  .header .nav{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .header-bottom .nav__item_font:nth-child(4){
+    margin-left: 28px;
+  }
+
+  .header-top{
+    padding-top: 0;
+  }
+
+  .header{
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  .calculator{
+    padding-top: 20px;
+  }
+
+  .calculator-item-left__text-1_font{
+    font-size: 20px;
+  }
+
+  .calculator .calculator-item-left__text-2{
+    font-size: 15px;
+  }
+
+  .calculator-item-left__img{
+    max-width: 100%;
+  }
+
+  .calculator .calculator-item-right__text-1_font{
+    font-size: 25px;
+  }
+
+  .calculator .calculator-item-right-grid{
+    grid-template-columns: repeat(2, 47%);
+  }
+
+  .feedback-flex-container-card-item-2{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .feedback-flex-container-card{
+    height: 310px;
+  }
+
+  .questions-grid-container{
+    grid-template-columns: repeat(2, 47%);
+  }
+
+  .main_background_color{
+    height: 5100px;
+  }
+
+  .guarantees .guarantees__text{
+    width: 100%;
+  }
+ }
+
+
